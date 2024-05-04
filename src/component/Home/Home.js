@@ -28,7 +28,7 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="ECOMMERCE" />
+          <MetaData title="Subaku" />
 
           <div className="banner">
             <p>Welcome to Subaku</p>
@@ -49,7 +49,7 @@ const Home = () => {
                 justifyContent: 'center',
                 textDecoration: 'none'
               }}>
-              <Button variant="contained" color="secondary" className="text-center">create your own design</Button>
+              <Button variant="contained" color="secondary" className="text-center">Create your own design</Button>
           </Link>
           <h2 className="homeHeading">Featured Products</h2>
 
