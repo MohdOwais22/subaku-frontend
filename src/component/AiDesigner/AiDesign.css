@@ -1,0 +1,55 @@
+.aiDesignHeading {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.4vmax;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 5vmax auto;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.designContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tshirt-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .tshirt-image > img {
+    max-width: 100%;
+  }
+  
+  .overlay-design {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: multiply; /* Experiment with different blend modes */
+  }
+  
+
+  .image-threed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 60vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
