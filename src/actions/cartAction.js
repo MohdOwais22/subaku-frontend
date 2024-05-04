@@ -29,15 +29,12 @@ export const addProductToCart = (productData) => async (dispatch) => {
   console.log('cart items')
   let cartItems = JSON.parse(localStorage.getItem("cartItemsCustom")) || [];
 
-  // Check if cartItems is an array, if not, initialize it as an empty array
   if (!Array.isArray(cartItems)) {
     cartItems = [];
   }
 
-  // Add the new product to the cart items array
   cartItems.push(productData);
 
-  // Update the cart items in local storage
   await localStorage.setItem("cartItemsCustom", JSON.stringify(productData));
   console.log(cartItems);
 };
