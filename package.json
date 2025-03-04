@@ -67,5 +67,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://subaku-backend.onrender.com"
+  "proxy": "http://localhost:8080"
 }

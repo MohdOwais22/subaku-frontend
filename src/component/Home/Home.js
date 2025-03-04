@@ -36,7 +36,7 @@ const Home = () => {
 
             <a href="#container">
               <button>
-                Scroll 
+                Scroll
                 {/* <CgMouse /> */}
               </button>
             </a>
@@ -44,12 +44,12 @@ const Home = () => {
 
           <h2 className="homeHeading">Generate Your Own Design</h2>
           <Link to='/aiMade' style={{
-                display:'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                textDecoration: 'none'
-              }}>
-              <Button variant="contained" color="secondary" className="text-center">Create your own design</Button>
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            textDecoration: 'none'
+          }}>
+            <Button variant="contained" color="secondary" className="text-center">Create your own design</Button>
           </Link>
           <h2 className="homeHeading">Featured Products</h2>
 
